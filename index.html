@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f7fa;
+      color: #333;
+    }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      background: #444;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: #ffd700;
+    }
+    section {
+      padding: 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .profile {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    .profile img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 3px solid #444;
+    }
+    .card {
+      background: #fff;
+      padding: 20px;
+      margin: 15px 0;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }download-button {
+            background-color: #333;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 20px;
+            display: inline-block;
+            margin-top: 10px;
+            align-self: center;
+        }
+
+        .download-button:hover {
+            background-color: #555;
+        }
+    footer {
+      text-align: center;
+      background: #222;
+      color: #fff;
+      padding: 20px;
+      margin-top: 30px;
+    }
+    button {
+      background: #444;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    button:hover {
+      background: #ffd700;
+      color: #222;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Digital Portfolio</h1>
+    <p>Full Stack Web Developer | AI Enthusiast</p>
+  </header>
+
+  <nav>
+    <a href="#profile">Profile</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="profile">
+    <h2>👤 Profile</h2>
+    <div class="profile">
+      <img src="C:\Users\admin\html\IMG20250818213048.jpg"alt="Profile">
+      <div>
+        <h3>Kavya R</h3>
+        <p>Hello! I’m a passionate web developer skilled in HTML, CSS, JavaScript, and backend technologies. I love building interactive and user-friendly websites.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>💻 Projects</h2>
+    <div class="card">Portfolio Website – Built using HTML, CSS, JS</div>
+    <div class="card">To-Do App – Interactive task management tool</div>
+    <div class="card">E-commerce Store – Shopping website with cart system</div>
+  </section>
+
+  <section id="skills">
+    <h2>🛠 Skills</h2>
+    <div class="card">Frontend: HTML, CSS, JavaScript, React</div>
+    <div class="card">Backend: Node.js, Express, MongoDB</div>
+    <div class="card">Other: Git, API Integration, Responsive Design</div>
+  </section>
+  <section id="resume">
+    
+        <div class="section-content">
+            <center>
+            <h2>Resume</h2>
+            <a href="C:\Users\pavia\OneDrive\Desktop\nm week course\PAVITHRA.docx"target="_blank" class="download-button">Download CV</a>
+        </center>
+        </div>
+        
+    </section>
+  <section id="contact">
+    <h2>📬 Contact</h2>
+    <p>Email: kavyar@srmasc.ac.in</p>
+    <button onclick="alert('Thanks for reaching out!')">Say Hello</button>
+  </section>
+
+  <footer>
+    <p>© 2025 John Doe | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
